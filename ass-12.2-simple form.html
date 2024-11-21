@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <style>
+        body{
+            margin-left: 600px;
+        }
+            .input{
+                margin-bottom: 10px;
+            }
+            .button{
+                background-color: rgb(65, 65, 255);
+                color: aliceblue;
+                border: 2px solid transparent;
+                border-radius: 10px;
+                margin-left: 50px;
+                width: 80px;
+                height: 25px;
+            }
+            .button:hover{
+                background-color: rgb(120, 120, 175);
+
+            }
+    </style>
+</head>
+<body>
+    <h1 class="h1">Simple Form</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required class="input"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required class="input"><br>
+
+        <button type="submit" class="button">Submit</button>
+    </form>
+</body>
+</html>
