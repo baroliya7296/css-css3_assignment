@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div{
+        border: 2px solid black;
+        width: 600px;
+        text-decoration: none;
+        margin-left:350px ;
+        margin-top: 30px;
+        position: relative;
+       }
+       nav a{
+        text-decoration: none;
+       }
+
+       h1{
+         position: relative;
+         padding-left: 30px; 
+}
+
+        h1::before{
+          content: ''; 
+          position: absolute;
+          left: 25px;
+          bottom: -7px;
+        
+          width: 0px; 
+          height: 5px;
+          background-color: #3498db;
+          border-radius: 24px;
+          transition:all 300ms;
+        }
+        h1:hover::before{
+            width: 100px;
+        }
+       
+       
+      nav a:hover{
+            color: red;
+       }
+
+       P::first-line{
+        color: red;
+       }
+       p::first-letter{
+        font-family: 'Times New Roman', Times, serif;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <h1>Flipkart</h1>
+
+            Go to wbsite:-
+            <a href="https://www.flipkart.com/mobile-phones-store">Go to flipkart website</a>
+        </nav>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, debitis beatae. Officiis fugiat illo, labore sint animi adipisci veritatis deleniti odio possimus iste, tempora hic, molestiae placeat impedit cupiditate aliquam asperiores nam beatae magnam maxime officia consequuntur? Dicta similique fugit dignissimos atque esse dolor amet consectetur laborum, magnam cum ex? Ratione, rem dignissimos exercitationem, fuga eos libero ipsum ab, reiciendis nulla qui eaque a doloribus officiis quasi ipsam. Maiores autem velit beatae. Aliquam, consequatur facere eos, laboriosam nihil consequuntur repellat nulla quo sit inventore blanditiis sequi reiciendis libero commodi sunt voluptas voluptatibus beatae officiis quos at tenetur facilis. Officiis, necessitatibus adipisci ratione ut ducimus aliquid consequatur, exercitationem a enim quibusdam nihil, error itaque quisquam! Sunt accusantium eaque unde tempora totam a tempore temporibus, enim quo fuga dolores earum inventore odit tenetur non voluptas. Quo dignissimos voluptatum adipisci ipsam voluptatem. Alias amet nulla ex sed aspernatur cum laudantium illo aliquid est id quaerat earum optio dolorum, numquam temporibus nihil soluta laboriosam! Tempore molestiae accusamus error sed? Repellendus possimus rem minima consectetur cumque nisi omnis reiciendis nam quasi atque. Nobis repudiandae, et, fugit facilis, totam quisquam fuga quos ab quasi provident consectetur laudantium quaerat unde deserunt iusto eveniet cum debitis vitae voluptatibus.</p>
+    </div>
+</body>
+</html>
