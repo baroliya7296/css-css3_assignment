@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .wapper{
+        width: 100%;
+    }
+
+    .wapper-caption{
+        width: 600px;
+        background-color: #000;
+        border: 1px solid white;
+        height: 630px;
+        margin: 0 auto;
+        position: relative;
+        box-shadow:6px 8px 16px -2px;
+        
+    }
+
+    .wapper-caption-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .wapper-caption-top .logo-bar img{
+        width: 200px;
+    }
+
+    .wapper-caption-top .img-bar img{
+        width: 190px;
+        border-radius: 50%;
+    }
+    
+    .menu-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .menu-content-box{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .menu-content-box .heading{
+        background-color: orangered;
+        margin-top:10px ;
+        width: 230px;
+        text-align: center;
+    }
+
+    .menu-content-box .note{
+        background-color: orangered;
+        margin-top:20px ;
+        text-align: center;
+    }
+
+    .menu-content-box .list-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-content-box .list-items{
+        color: aliceblue;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    .menu-content-box .describe{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    /* price */
+
+     .price{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        color:white ;
+        text-align: center;
+        margin-right: -10px;
+        font-style: 14px;
+    }
+    .price-heading{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-top: -81px;
+
+    } 
+    .img{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        justify-self: end;
+        position: absolute;
+        bottom: 90px;
+        right: 0;
+    }
+    .img-item{
+        height: 130px;
+        width: 190px;
+        border-radius: 50%;
+        border-bottom: 4px solid orangered;
+    }
+    
+</style>
+<body>
+<div class="wapper">
+    <div class="wapper-caption">
+        <div class="wapper-caption-top">
+            <div class="logo-bar">
+               <img src="https://static.vecteezy.com/system/resources/previews/021/568/241/non_2x/italian-pizza-logo-for-restaurant-and-fast-food-delivery-service-pizza-vector.jpg" alt="">
+            </div>
+            <div class="img-bar">
+                <img src="https://images.pexels.com/photos/3762069/pexels-photo-3762069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+            </div>
+                <div class="menu-content">
+                     <div class="menu-content-box">
+                 <h2 class="heading">Non-vage PIZZAS</h2>
+                 <ul class="list-content">
+                    <li class="list-items">cheekan cheese pizza</li> 
+                    <li class="list-items">cheekan maaxican pizza</li>
+                    <li class="list-items">cheekan delight pizza</li>
+                    <li class="list-items">cheekan tikka pizza</li>
+                 </ul>
+
+                 <div class="price-heading">
+                    <div class="price">110/-</div> 
+                    <div class="price">120/-</div>
+                    <div class="price">130/-</div>
+                    <div class="price">140/-</div>
+                </div>
+            
+              </div>
+
+                <div class="menu-content">
+                    <div class="menu-content-box">
+                <h2 class="heading">Non-vage Sandwitch</h2>
+                <ul class="list-content">
+                   <li class="list-items">cheekan cheese sandwitch</li>
+                   <li class="list-items">cheekan maaxican sandwitch</li>
+                   <li class="list-items">cheekan delight sandwitch</li>
+                   <li class="list-items">cheekan tikka sandwitch</li>
+                </ul>
+
+                <div class="price-heading">
+                    <div class="price">110/-</div> 
+                    <div class="price">120/-</div>
+                    <div class="price">130/-</div>
+                    <div class="price">140/-</div>
+                </div>
+            
+               </div>
+
+            <div class="menu-content">
+            <div class="menu-content-box">
+              <h2 class="heading">Frense Fries</h2>
+             <ul class="list-content">
+                <li class="list-items">cheekan cheese fries</li>
+                <li class="list-items">cheekan maaxican fries</li>
+                <li class="list-items">cheekan delight fries</li>
+                <li class="list-items">cheekan tikka fries</li>
+              </ul>
+
+              <div class="price-heading">
+                <div class="price">110/-</div> 
+                <div class="price">120/-</div>
+                <div class="price">130/-</div>
+                <div class="price">140/-</div>
+            </div>
+        
+           </div>
+
+           <div class="menu-content">
+             <div class="menu-content-box">
+               <h3 class="note">Note:-</h3>
+                <ul class="describe-bar">
+                 <li class="describe">We will get the stock present from there and everything will be fresh.please waited for 10 minutes after placing the order.</li>
+                </ul>
+             </div>
+            </div>
+    </div>
+</div>
+
+<div class="price-top">
+    <div class="price">
+        <div class="price-heading-top">
+            <div class="price-heading">
+            </div>
+            
+        </div>
+    </div>                 
+
+    <div class="img">
+        <img src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-item">      
+        <img src="https://images.pexels.com/photos/1435903/pexels-photo-1435903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-item">                   
+        <img src="https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-item">
+    </div>
+</div>
+</body>
+</html>
