@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-gallery</title>
+    <style>
+        body{
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 auto;
+            background-color: white;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+            padding: 20px;
+            box-shadow: 2px 4px 8px 2px;
+        }
+        .gallery-items img{
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+            transition:all 300ms;
+        }
+        .gallery-items:hover img{
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);  
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-items">
+            <img src="https://images.pexels.com/photos/13093565/pexels-photo-13093565.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt="">
+        </div>
+
+        <div class="gallery-items">
+            <img src="https://images.pexels.com/photos/8018498/pexels-photo-8018498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+
+        <div class="gallery-items">
+            <img src="https://images.pexels.com/photos/27085786/pexels-photo-27085786/free-photo-of-pelicans-grooming-in-a-shallow-water.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt="">
+        </div>
+
+        <div class="gallery-items">
+            <img src="https://images.pexels.com/photos/17038488/pexels-photo-17038488/free-photo-of-pelicans-on-pier-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt="">
+        </div>
+
+    </div>
+</body>
+</html>

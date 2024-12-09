@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(216, 228, 150);
+        }
+         a{
+            text-decoration: none;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: darkgray;
+            border-radius: 40px;
+        }
+
+        @media (min-width:768px) {
+            .container{
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Linkedin</a>
+            <a href="">Servies</a>
+            <a href="">contact</a>   
+    </div>
+    
+</body>
+</html>
